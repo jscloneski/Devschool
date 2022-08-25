@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Adicionar e ajustar o background*/
+main {
+  background: url("fundo.jpg") no-repeat center center;
+  background-size: cover;
+  height: 92vh;
+}
+
+/*Adicionar e ajustar a barra de navegação*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial;
+  background: black;
+  height: 8vh;
+}
+
+/*Adicionar e ajustar a fonte do Login*/
+label {
+  font-size: 17px;
+  color: black;
+  font-family: Arial;
+}
+
+/*Ajustar algumas coisas no corpo do HTML*/
+body {
+  color: black;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*Adicionar e ajustar a barra de navegação*/
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/*Animação nos botões da barra de navegação*/
+a:hover {
+  transition: 1s;
+  background-color: red;
+  border-radius: 10px;
+}
+
+/*Ajustar textos do erro ao efetuar o login*/
+#erroEmail, #erroSenha, #erroData {
+  font-size: 15px;
+  font-style: italic;
+  color: red;
+}
+
+/*Ajustar a tela de login*/
+.login {
+  padding: 40px;
+  background: white;
+  border-radius: 10px;
+  width: 330px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+/*Ajustar o textbox do login*/
+#email, #senha {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 4px;
+  padding-left: 30px;
+  background-color: #d8d8d8;
+  border: 1px solid #789d9b;
+}
+
+/*Ajustar botão de login*/
+#login2 {
+  width: 332px;
+  height: 30px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background-color: black;
+}
+
+/*Ajustar efeitos do botão de login*/
+#login2:hover {
+  transition: 1s;
+  background-color: red;
+}
+
+/*Ajustar as divs de JS, CSS, HTML*/
+.divmeio {
+  text-align: center;
+  font-family: Arial;
+  font-size: 50px;
+  color: white;
+}
+
+/*Ajustar botão de play JS*/
+#botao1 {
+  width: 120px;
+  height: 60px;
+  border: none;
+  border-radius: 7px;
+  padding-left: 10px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+  padding: 10px;
+  font-size: 20px;
+  background-color: black;
+  text-align: center;
+}
+
+/*Ajustar botão de play CSS*/
+#botao2 {
+  width: 120px;
+  height: 60px;
+  border: none;
+  border-radius: 7px;
+  padding-left: 10px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+  padding: 10px;
+  font-size: 20px;
+  background-color: black;
+  text-align: center;
+}
+
+/*Ajustar botão de play HTML*/
+#botao3 {
+  width: 120px;
+  height: 60px;
+  border: none;
+  border-radius: 7px;
+  padding-left: 10px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+  padding: 10px;
+  font-size: 20px;
+  background-color: black;
+  text-align: center;
+}
+
+/*Ajustar efeitos do botão de play JS*/
+#botao1:hover {
+  transition: 1s;
+  background-color: red;
+  border-radius: 10px;
+}
+
+/*Ajustar efeitos do botão de play CSS*/
+#botao2:hover {
+  transition: 1s;
+  background-color: red;
+  border-radius: 10px;
+}
+
+/*Ajustar efeitos do botão de play HTML*/
+#botao3:hover {
+  transition: 1s;
+  background-color: red;
+  border-radius: 10px;
+}
+
+/*Ajustar texto da index JS*/
+#div1 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 25%;
+}
+
+/*Ajustar texto da index CSS*/
+#div2 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+/*Ajustar texto da index HTML*/
+#div3 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 75%;
+}
+
+/*Ajustar texto da logo*/
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+/*Ajustar estilo da barra de navegação*/
+.links {
+  list-style: none;
+  display: flex;
+}
+
+/*Ajustar estilo da barra de navegação ( LI )*/
+.links li {
+  letter-spacing: 2px;
+  margin-left: 32px;
+}
