@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  min-width: 100vh;
 }
 
 /*Adicionar e ajustar o background*/
@@ -30,7 +31,7 @@ label {
 /*Ajustar algumas coisas no corpo do HTML*/
 body {
   color: black;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   overflow-x: hidden;
 }
