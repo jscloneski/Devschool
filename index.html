@@ -1,33 +1,40 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Devschool - Home</title>
-		<link rel="stylesheet" href="style.css" />
-	</head>
-  <body>
-    <header>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Devschool - Login</title>
+	<link rel="stylesheet" href="style.css"/>
+	<script type="text/javascript" src="javascript.js"></script>
+</head>
+<body onload="document.login.email.focus()">
+	<header>
       <nav>
         <a class="logo" href="">DEVSCHOOL</a>
         <ul class="links">
-          <li><a href="#">Início</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Projetos</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="">Início</a></li>
+          <li><a href="">Sobre</a></li>
+          <li><a href="">Projetos</a></li>
+          <li><a href="">Contato</a></li>
         </ul>
       </nav>
     </header>
-    <div class="divmeio">
-      <div id="div1">JavaScript<br><a href="">
-        <button id="botao1" type="button">Jogar!</button></a>
-      </div>
-      <div id="div2">CSS<br><a href="">
-        <button id="botao2" type="button">Jogar!</button></a>
-      </div>
-      <div id="div3">HTML<br><a href="">
-        <button id="botao3" type="button">Jogar!</button></a>
-      </div>
-    </div>
-    <main></main>
-  </body>
+	<header>
+	<div class="login">
+		<form name="login" action="home.html" id="login" method="POST" enctype="multipart/form-data" onsubmit="return valida()">
+			<label>
+				<b>Email: </b><div id="erroEmail"></div>
+			</label>
+			<input id="email" placeholder="Insira o Email" type="text" name="email" maxlength="150" minlength="8">
+			<br><br>
+			<label>
+				<b>Senha: </b><div id="erroSenha"></div>
+			</label>
+			<input id="senha" placeholder="Insira a Senha" type="text" name="senha" maxlength="150" minlength="4">
+			<br><br>
+			<input type="submit" name="entrar" id="login2" value="Entrar">
+		</form>
+		</header>
+	</div>
+	<main></main>
+</body>
 </html>
