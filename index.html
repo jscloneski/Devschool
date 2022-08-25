@@ -20,7 +20,7 @@
     </header>
 	<header>
 	<div class="login">
-		<form name="login" action="/home.html?" id="login" method="POST" enctype="multipart/form-data" onsubmit="return valida()">
+		<form name="login" id="login" method="POST" enctype="multipart/form-data" onsubmit="return valida()">
 			<label>
 				<b>Email: </b><div id="erroEmail"></div>
 			</label>
@@ -31,7 +31,7 @@
 			</label>
 			<input id="senha" placeholder="Insira a Senha" type="password" name="senha" maxlength="150" minlength="4">
 			<br><br>
-			<input type="submit" name="entrar" id="login2" value="Entrar">
+			<input type="submit" name="entrar" id="login2" value="Entrar" formaction="home">
 		</form>
 		</header>
 	</div>
